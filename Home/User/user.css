@@ -1,0 +1,30 @@
+#myTable {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+#myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#myTable tr:nth-child(even){background-color: #f2f2f2;}
+#myTable tr:hover {background-color: #ddd;}
+#myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4c96af;
+    color: white;
+}
+.selectBook{
+    /* margin-bottom: 20px; */
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* background-color: #152015; */
+    margin-bottom: 20px;
+}

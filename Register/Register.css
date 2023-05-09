@@ -1,0 +1,74 @@
+body {
+    background-image: url(../cool-background\ \(3\).png);
+  
+  }
+  
+  .RegisterClass {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .red {
+    color: red;
+  }
+  .RegisterClass {
+    display: flex;
+    justify-content: center;
+  }
+  .form-control {
+    margin-bottom: 10px;
+  }
+  label {
+    font-weight: bold;
+  }
+  .form-check-label {
+    margin-right: 10px;
+  }
+  #RegisterButton {
+    margin-top: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #RegisterButton:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  #error-message {
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+  }
+  .RegisterClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  form {
+    background-color: rgb(20, 27, 40);
+    padding: 20px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: rgba(77, 48, 66, 0.4) 5px 5px, rgba(86, 55, 74, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+  .alreadyAcc {
+    float: right;
+  }
+  .form-group {
+    margin-bottom: 0px !important;
+  }
+  .form-control {
+    margin-bottom: 0px !important;
+  }
+  #AdminRadio label {
+    color: white;
+  }

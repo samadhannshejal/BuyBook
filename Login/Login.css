@@ -1,0 +1,39 @@
+body{
+    background-image: url(../cool-background\ \(3\).png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+form {
+    width: 400px;
+    background-color: rgb(20, 27, 40);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: rgba(77, 48, 66, 0.4) 5px 5px, rgba(86, 55, 74, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  #LoginBtn {
+    margin-top: 10px;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  #LoginBtn:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  #LoginBtn{
+    width: 100%;
+  }

@@ -1,0 +1,41 @@
+
+.red{
+    color: red !important;
+}
+#myTable {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+#myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#myTable tr:nth-child(even){background-color: #f2f2f2;}
+#myTable tr:hover {background-color: #ddd;}
+#myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* background-color: #152015; */
+    margin-bottom: 20px;
+    width: 100vw;
+    /* border:1px solid red */
+}
+.create-btn{
+   margin-left: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.logout-btn{
+    margin-right: 20px;
+}

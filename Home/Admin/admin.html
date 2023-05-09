@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+  <script src="https://kit.fontawesome.com/90ce974c81.js" crossorigin="anonymous"></script>
+  <title>Admin</title>
+</head>
+
+<body>
+
+  <!-- create book -->
+  <div class="top-nav">
+    <button type="button" class="btn btn-primary create-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+      data-bs-whatever="@mdo">Create Book</button>
+
+    <div class="logout-btn">
+      <button class="btn btn-danger">Logout</button>
+    </div>
+  </div>
+<form action="">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Book</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+              class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Book Name :</label>
+              <input type="text" class="form-control" id="book-name" placeholder="Please enter Book Name">
+              <p id="bookNameErr"></p>
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Decscription :</label>
+              <textarea class="form-control" id="book-description" placeholder="Write here ...."></textarea>
+              <p id="bookDescriptionErr"></p>
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Book Price :</label>
+              <input type="number" class="form-control" id="book-price" placeholder="Please enter Book Price">
+              <p id="bookPriceErr"></p>
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Author Name :</label>
+              <input type="text" class="form-control" id="book-authorName" placeholder="Please enter Author Name">
+              <p id="bookAuthorNameErr"></p>
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary CloseBtn" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="bookSubmitBtn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+  <!-- registered book table -->
+
+  <table id="myTable">
+    <thead>
+      <tr>
+        <!-- <th>id</th> -->
+        <th>bookName</th>
+        <th>bookDescription</th>
+        <th>price</th>
+        <th>Author Name</th>
+        <th>Purchased User</th>
+      </tr>
+    </thead>
+  </table>
+
+
+
+
+
+
+</body>
+<script src="admin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+
+</html>

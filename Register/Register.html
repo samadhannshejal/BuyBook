@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div id="RegisterId" class="RegisterClass">
+        <form>
+            <!-- input values -->
+            <div class="form-group" >
+                <label for="RegisterInputName"></label>
+                <input type="text" class="form-control" id="RegisterInputName" placeholder="Enter Your First Name"
+                    required>
+                    <p id="firstNameReq"></p>
+            </div>       
+            <div class="form-group">
+                <label for="RegisterInputLastName"></label>
+                <input type="text" class="form-control" id="RegisterInputLastName" placeholder="Enter your last name"required>
+            </div>
+            <p id="lastNameReq"></p>
+            <div class="form-group">
+                <label for="RegisterInputUserName"></label>
+                <input type="text" class="form-control" id="RegisterInputUserName" placeholder="Enter UserName"required>
+                <p id="userNameReq"></p>
+            </div>
+            <div class="form-group">
+                <label for="RegisterInputEmail"></label>
+                <input type="email" class="form-control" id="RegisterInputEmail" placeholder="Enter Your Email"required>
+                <p id="emailReq"></p>
+            </div>
+            <div class="form-group">
+                <label for="RegisterInputpassword"></label>
+                <input type="password" class="form-control" id="RegisterInputpassword"
+                    placeholder="Enter Your password"required>
+                    <p id="passwordReq"></p>
+            </div>
+            <div class="form-group">
+                <label for="RegisterInputReEnterpassword"></label>
+                <input type="password" class="form-control" id="RegisterInputReEnterpassword"
+                    placeholder=" ReEnterpassword"required>
+                    <p id="reEnterpasswordReq"></p>
+            </div>
+            <!-- admin and user buton -->
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="AdminRadio">
+                <label class="form-check-label" for="AdminRadio"style="color: white;">
+                    Admin
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="UserRadio" checked>
+                <label class="form-check-label" for="UserRadio" style="color: white;">
+                    User
+                </label>
+            </div>
+            <div style="float: right;">
+                <a href="" id="neviaget">Already have account </a>
+            </div>
+            <!-- register button -->
+            <div>
+                <button class="btn bg-primary " id="RegisterButton">Register</button>
+            </div>     
+        </form>
+    </div>
+</body>
+<script src="Register.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+</body>
+
+</html>
